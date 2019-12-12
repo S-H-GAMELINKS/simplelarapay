@@ -12,3 +12,7 @@
 */
 
 Route::get('/', 'WebController@index');
+
+Route::post('/token', 'WebController@token');
+
+Route::post('/token', 'WebController@token');
